@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "web-fast-nav",
+  "version": "1.0",
+  "description": "Helps to navigate quickly thought web",
+  "icons": {
+    "48": "icons/app.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
