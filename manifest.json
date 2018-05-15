@@ -6,6 +6,9 @@
   "icons": {
     "48": "icons/app.png"
   },
+  "permissions": [
+    "activeTab"
+  ],
   "content_scripts": [
     {
       "matches": ["*://*/*"],
